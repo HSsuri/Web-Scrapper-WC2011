@@ -8,7 +8,7 @@ Web Scrapper is implemented using NodeJS. It scraps the data of Cricket World Cu
 
 ## Features
 
-- Stores the Scrapped dataa in Excel 
+- Stores the Scrapped data in Excel 
 - Each team has a separate directory
 - Every player has a separate directory in his team directory
 - Bowling and Batting Stats/Data of every player are stored separately 
