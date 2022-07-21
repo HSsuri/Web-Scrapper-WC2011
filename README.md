@@ -33,7 +33,6 @@ Install dependencies
 ```bash
   npm install cheerio
   npm install xlsx
-  npm install path
   npm install axios
 ```
 
