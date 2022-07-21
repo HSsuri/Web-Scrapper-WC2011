@@ -25,7 +25,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Web-Scrapper-WC2011
 ```
 
 Install dependencies
