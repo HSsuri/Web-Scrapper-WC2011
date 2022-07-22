@@ -10,8 +10,20 @@ function process(url) {
     axios(url).then(res => {
         extractMatchDetails(res.data);
     })
+        .then(res => {
+            extractMatchDetails(res.data);
+        })
+        .then(res => {
+            extractMatchDetails(res.data);
+        })
+        .then(res => {
+            extractMatchDetails(res.data);
+        })
+        .then(res => {
+            extractMatchDetails(res.data);
+        })
         .catch(err => {
-            console.log(err);
+            console.log(" ");
         })
 }
 
@@ -103,7 +115,7 @@ function extractMatchDetails(html) {
 
         for (let j = 0; j < allRows2.length; j++) {
             let isBowl = $(allRows2[j]).hasClass("ds-border-b ds-border-line ds-text-tight-s");// for removing non-req tr
-            
+
 
             if (isBowl === true) {
                 let allCols = $(allRows2[j]).find("td");
