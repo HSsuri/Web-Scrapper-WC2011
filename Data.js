@@ -23,7 +23,7 @@ function process(url) {
             extractMatchDetails(res.data);
         })
         .catch(err => {
-            console.log(" ");
+            console.log(err);
         })
 }
 
