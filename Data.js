@@ -10,18 +10,7 @@ function process(url) {
     axios(url).then(res => {
         extractMatchDetails(res.data);
     })
-        .then(res => {
-            extractMatchDetails(res.data);
-        })
-        .then(res => {
-            extractMatchDetails(res.data);
-        })
-        .then(res => {
-            extractMatchDetails(res.data);
-        })
-        .then(res => {
-            extractMatchDetails(res.data);
-        })
+        
         .catch(err => {
             console.log(err);
         })
